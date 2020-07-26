@@ -29,7 +29,7 @@ end
 def aoh_lookup(aoh, row, key)
 end
 
-aoh_lookup(array, 2, :name)
+aoh_lookup(assembled_aoh, 2, :name)
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
